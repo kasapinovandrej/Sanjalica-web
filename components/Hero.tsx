@@ -11,7 +11,7 @@ const Hero = () => {
         className="absolute w-full h-full object-cover object-[70%_50%] md:object-center"
       />
       <div className="absolute inset-0 bg-linear-to-b from-black/20 via-black/40 to-black/80" />
-      <div className="relative z-10 flexh-full max-w-7xl px-5 mx-auto h-full flex justify-center flex-col">
+      <div className="relative z-10 flexh-full max-w-7xl px-5 mx-auto h-full flex justify-center flex-col pt-20 md:pt-0">
         <p className="text-mt450-white text-lg md:text-xl mb-2.5">
           {/* Napravljeno s ljubavlju, darovano od srca */}
           Kad reči nisu dovoljne — tu smo mi.
@@ -29,13 +29,13 @@ const Hero = () => {
         <div>
           <Button
             variant="default"
-            className="text-xl p-5 bg-mt450-pink cursor-pointer hover:text-mt450-dark"
+            className="text-sm md:text-base p-5 bg-mt450-pink cursor-pointer md:hover:text-mt450-dark"
           >
             Pogledaj proizvode
           </Button>
           <Button
-            variant="outline"
-            className="text-xl p-5 text-mt450-pink ml-5 cursor-pointer"
+            variant="default"
+            className="text-sm md:text-base p-5 text-mt450-pink ml-5 cursor-pointer md:hover:text-mt450-dark bg-mt450-white"
           >
             Kontaktiraj nas
           </Button>
