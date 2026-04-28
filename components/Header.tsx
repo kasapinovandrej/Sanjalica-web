@@ -26,7 +26,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed z-50 w-full">
+    // dodati fixed position ako hero nije u view portu
+    <header className="absolute z-50 w-full">
       <MainContainer>
         <div className="flex justify-between items-center py-5">
           <Link href="/">
