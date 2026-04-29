@@ -47,6 +47,8 @@
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
   --color-sanjalica-pink: #f70a55;
+  --color-sanjalica-roze: #b37499;
+  --color-sanjalica-bordo: #561136;
   --color-mt450-pink: #da385b;
   --color-mt450-blue: #4dc8e8;
   --color-mt450-white: #f2f2f2;

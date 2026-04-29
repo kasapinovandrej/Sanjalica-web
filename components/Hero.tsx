@@ -3,7 +3,7 @@ import { Button } from "./UI/button";
 
 const Hero = () => {
   return (
-    <div className="h-dvh relative ">
+    <section className="h-dvh relative ">
       <Image
         src="/assets/images/bg-light-rose.png"
         alt="Hero"
@@ -41,7 +41,7 @@ const Hero = () => {
           </Button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

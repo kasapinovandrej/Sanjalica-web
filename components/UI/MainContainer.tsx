@@ -8,7 +8,9 @@ const MainContainer = ({
   styles?: string;
 }) => {
   return (
-    <div className={`max-w-7xl px-5 mx-auto ${styles || ""}`}>{children}</div>
+    <section className={`max-w-7xl px-5 mx-auto ${styles || ""}`}>
+      {children}
+    </section>
   );
 };
 

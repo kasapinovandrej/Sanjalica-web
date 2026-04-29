@@ -38,7 +38,7 @@ const Services = () => {
     <MainContainer styles="py-20">
       <div className="mb-10">
         <h2 className="text-3xl text-center font-bold mb-3">Naše usluge</h2>
-        <p className="text-center text-lg text-[#b37499]">
+        <p className="text-center text-lg text-sanjalica-roze">
           Stvaramo nezaboravne trenutke
         </p>
       </div>
